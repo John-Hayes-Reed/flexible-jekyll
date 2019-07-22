@@ -1,22 +1,28 @@
-title: Hello, world! I'm David Freeman
+title: John Hayes-Reed (aka Johnny Rubeard)
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The musings of myself. A diary of my findings on my journey through software development.
+  A record of what I have picked up, written in a simple way that makes sense to me, how I would
+  wish to have seen it written. Hopefully in a way that is useful to you too!
 permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+site-twitter: johnny_rubeard #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
+author: John Hayes-Reed # add your name
 author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
+about-author: >
+  Technical Design Authority.
+  Software Engineer.
+  Agile Enthusiast.
+  Rubyist.
+  But most of all,
+  a Husband and Father.
+social-twitter: johnny_rubeard # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
+social-github: John-Hayes-Reed # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-email: john.hayes.reed@rubeard.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
@@ -34,4 +40,4 @@ plugins:
 paginate: 8
 paginate_path: "/page/:num"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "vendor"]
